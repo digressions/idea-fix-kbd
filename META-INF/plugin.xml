@@ -1,0 +1,29 @@
+<idea-plugin version="2">
+  <id>idea-fix-kbd</id>
+  <name>Enforce English!</name>
+  <version>1.0</version>
+  <vendor email="kikkerbrood@gmail.com" url="https://github.com/digressions/idea-kbd-fix" />
+
+  <description><![CDATA[
+      Brings the English keyboard layout back.
+    ]]></description>
+
+  <change-notes />
+
+  <idea-version since-build="131"/>
+
+  <extensions defaultExtensionNs="com.intellij" />
+
+  <application-components />
+
+  <project-components />
+
+  <actions>
+      <group id="fixkbd.KludgeMenu" text="Kludge" description="Kludges">
+          <separator />
+          <action id="fixkbd.FixKbdAction" class="fixkbd.FixKbd" text="Enforce English!" description="Enforce English menu item" />
+          <add-to-group group-id="HelpMenu" anchor="last" />
+      </group>
+  </actions>
+
+</idea-plugin>
