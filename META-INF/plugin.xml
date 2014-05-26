@@ -2,7 +2,7 @@
   <id>idea-fix-kbd</id>
   <name>Enforce English!</name>
   <version>1.0</version>
-  <vendor email="kikkerbrood@gmail.com" url="https://github.com/digressions/idea-kbd-fix" />
+  <vendor email="kikkerbrood@gmail.com" url="https://github.com/digressions/idea-fix-kbd" />
 
   <description><![CDATA[
       Brings the English keyboard layout back.
